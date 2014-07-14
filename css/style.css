@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+.container {
+	padding: 2em;
+}
+
+.site-header {
+	padding: 2em;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+	.site-header.sticky-nav {
+		position: fixed;
+		width: 100%;
+		background-color: #ccc;
+	}
+
+	.site-header.stuck {
+		position: fixed;
+		width: 100%;
+		background-color: #ccc;
+		left: 0;
+		top: 0;
+		padding: 1em;
+	}
+
+	.site-header.stuck img {
+		width: 120px;
+		height: auto;
+	}
+
+.logo {
+	float: left;
+}
+
+nav ul {
+	float: right;
+}
+
+	nav ul li {
+		display: inline;
+	}
